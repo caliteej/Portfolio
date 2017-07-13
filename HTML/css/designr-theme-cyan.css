@@ -79,7 +79,7 @@ h1 {
 
 h1.section-title{
     position:relative;
-    margin:0 0 124px;
+    margin:0 0 70px;
     font-size:48px;
     line-height:64px;
     font-weight:300;
@@ -361,11 +361,12 @@ header.jumbotron{
     margin:300px auto 0;
 	background:#fff;
     background:rgba(255,255,255,0.9);
-    padding:20px 0;
+    padding: 5px 0;
+    border-radius: 20px;
 }
 
 .jumbotron .left-col{
-	/*width:35%;*/
+	width: 27%;
     text-align:right;
 }
 
@@ -408,6 +409,10 @@ header.jumbotron{
     opacity:0;
     -webkit-ransition:opacity 0.4s ease-out;
     transition:opacity 0.4s ease-out;
+}
+
+.flex-viewport {
+    text-align: center;
 }
 
 .no-csstransitions .jumbotron .home-slider .slides li {
@@ -523,7 +528,7 @@ header.jumbotron{
 
 
 .services.bottom-row p {
-    margin-top:48px;
+    margin-top:5px;
 }
 
 /*-----------------------
@@ -533,7 +538,7 @@ header.jumbotron{
 #about {
     background:#8aaad9;
     color:#fff;
-    padding:80px 0;
+    padding:50px 0;
 }
 
 #about h1 {
@@ -541,15 +546,15 @@ header.jumbotron{
     font-size:36px;
     line-height:42px;
     font-weight:300;
-    margin-bottom:24px;
+    margin-bottom:22px;
     position:relative;
 }
 
 #about p {
-    font-size:24px;
-    line-height:36px;
-    font-weight:300;
-    margin-bottom:42px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-bottom: 22px;
 }
 
 #about a:hover{
