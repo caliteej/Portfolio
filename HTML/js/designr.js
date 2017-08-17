@@ -233,7 +233,7 @@ $(document).ready(function() {
 	/*============================================
 	Backstretch Images
 	==============================================*/
-	$.backstretch('HTML/assets/header-bg.jpg');
+	$.backstretch('HTML/assets/sunset wave.png');
 
 	$('body').append('<img class="preload-image" src="HTML/assets/contact-bg.jpg" style="display:none;"/>');
 
@@ -246,7 +246,7 @@ $(document).ready(function() {
 		if (direction=='down'){
 			$.backstretch('HTML/assets/contact-bg.jpg');
 		}else{
-			$.backstretch('HTML/assets/header-bg.jpg');
+			$.backstretch('HTML/assets/sunset wave.png');
 		}
 	});
 	
